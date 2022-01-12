@@ -1,0 +1,116 @@
+body {
+  overflow: hidden;
+  margin: 5px;
+}
+
+#chat_box {
+  text-shadow: 0px 0px 2px rgb(0 0 0 / 30%);
+  background-color: transparent;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  position: absolute;
+  overflow: hidden;
+  font-family: cursive;
+  color: #FFF;
+  border-radius: 4px;
+  width: calc(100% - 10px);
+}
+
+#chat_box.dark {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+#chat_box.light {
+  background: rgba(255, 255, 255, 0.3);
+  color: #000;
+}
+
+.nick {
+  font-weight: bold;
+}
+
+.tag {
+  vertical-align: bottom;
+  height: 18px;
+  width: 18px;
+  padding: 0;
+  margin-right: 3px;
+  margin-bottom: -1px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+.chat_line {
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  line-height: 16px;
+  overflow-wrap: anywhere;
+}
+
+.message {
+  display: inline;
+}
+
+.chat_line .time_stamp {
+  display: none;
+  padding-right: 3px;
+}
+
+.emoticon {
+  margin-bottom: -7px;
+}
+
+/* Prevent stacking of IceCube, SoSnowy */
+.bttv-emo-5849c9a4f52be01a7ee5f79d+.bttv-emo-5849c9a4f52be01a7ee5f79d,
+.bttv-emo-567b5b520e984428652809b6+.bttv-emo-567b5b520e984428652809b6 {
+  display: none;
+}
+
+/* Ice Cube */
+.emoticon+.bttv-emo-5849c9a4f52be01a7ee5f79d {
+  margin-left: -33px;
+}
+
+/* SoSnowy */
+.emoticon+.bttv-emo-567b5b520e984428652809b6 {
+  margin-left: -32px;
+}
+
+/* SantaHat */
+.emoticon+.bttv-emo-58487cc6f52be01a7ee5f205 {
+  margin-left: -34px;
+  margin-top: -18px;
+}
+
+/* TopHat, CandyCane, ReinDeer */
+.emoticon+.bttv-emo-5849c9c8f52be01a7ee5f79e,
+.emoticon+.bttv-emo-567b5c080e984428652809ba,
+.emoticon+.bttv-emo-567b5dc00e984428652809bd {
+  margin-left: -31px;
+  margin-top: -18px;
+}
+
+/* cvMask, cvHazmat */
+.emoticon+.bttv-emo-5e76d338d6581c3724c0f0b2,
+.emoticon+.bttv-emo-5e76d399d6581c3724c0f0b8 {
+  margin-left: -34px;
+  height: 34px;
+  width: 34px;
+}
+
+.cheermote {
+  width: auto;
+  max-height: 28px;
+}
+
+.emoji {
+  width: 20px;
+  height: auto;
+}
